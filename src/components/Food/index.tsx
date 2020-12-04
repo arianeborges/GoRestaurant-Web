@@ -42,7 +42,7 @@ const Food: React.FC<IProps> = ({
   }
 
   function setEditingFood(): void {
-    return handleEditFood(food);
+    handleEditFood(food);
   }
 
   return (
